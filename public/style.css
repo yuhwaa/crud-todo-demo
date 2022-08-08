@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Makta, Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
+}
+
+body {
+    background: pink;
+    font-family: Makta, Arial, Helvetica, sans-serif;
+}
+
+.todo-container {
+    color: #fff;
+    /* position:absolute; */
+    text-align:right;
+    margin: 10% auto 10% auto;
+    width:80%;
+    padding:20px;
+    background: rgba(255,255,255,0.25);
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.todo {
+    width:75%;
+
+}
+
+h2 {
+    padding:10px;
+    font-size:5vw;
+}
+
+input {
+    font-family: Makta, Arial, Helvetica, sans-serif;
+    margin-bottom:1vw;
+    padding:1px;
+    height:1.5em;
+    padding:0 5px;
+    line-height: 1.5em;
+    width:100%;
+    border-radius:5px;
+}
+textarea {
+    font-family: Makta, Arial, Helvetica, sans-serif;
+    display:block;
+    width:100%;
+    border-radius:5px;
+    padding:0 5px;
+    line-height: 1.5em;
+}
+
+.todo-header button{
+    color:#000;
+    border:none;
+    cursor:pointer;
+    margin:1vw 0;
+    padding:.5vw;
+    background-color:aquamarine;
+    border-radius:10px;
+}
+
+.ul {
+    list-style:none;
+}
+
+.todo-list-item {
+    color:#000;
+    padding:.5vw;
+    margin-top:.5vw;
+    border:none;
+    border-radius:5px;
+    background:rgba(184, 184, 184, 0.5);
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.todo-list-item-content {
+    font-size:1vw;
+    margin:.5vw;
+    width:75%;
+}
+
+.todo-list-item form {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.todo-list-item input {
+    flex-grow:2;
+    margin-right:1vw;
+    border-radius:5px;
+}
+
+.todo-list-item .confirm {
+    color:#000;
+    text-decoration:none;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color: aquamarine;
+    margin: 0 1vw 0 1vw; 
+    height:2em;
+    /* font-family: Makta, Arial, Helvetica, sans-serif; */
+    display:block;
+}
+
+.todo-list-item .cancel {
+    color:#000;
+    text-decoration:none;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color: rgb(255, 127, 253);
+    margin: 0 1vw 0 0; 
+    height:2em;
+    display:block;
+}
+
+.todo-list-item .edit {
+    color:aquamarine;
+    margin: 0 1vw 0 0;
+    cursor:pointer;
+    text-decoration:none;
+   
+}
+
+.todo-list-item .remove {
+    color:rgb(255, 127, 253);
+    margin: 0 1vw 0 0;
+    cursor:pointer;
+    text-decoration:none;
+    
+}
+
+.todo-list-item-title {
+   width:20%;
+}
